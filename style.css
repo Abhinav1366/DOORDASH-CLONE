@@ -1057,7 +1057,8 @@ img.search{
 
 @media screen and (min-width:768px) {
 
-  /*--------BANNER-SECTION--------*/
+  /*--------------------BANNER-SECTION-------------------*/
+
     .desk-banner {
         display: flex;
         
@@ -1147,13 +1148,15 @@ img.search{
         margin-right: 12px;
     }
 
-    /*-----BOX-SECTION----*/
+    /*--------------BOX-SECTION---------------*/
+
     .box-section{
         display: none;
     }
 
 
-    /*--------DASHER-SECTION------*/
+    /*-----------------DASHER-SECTION---------------*/
+
     .become-img img{
         width: 124px;
         height: 124px;
@@ -1177,7 +1180,8 @@ img.search{
     }
 
 
-    /*-----EVERYTHING-SECTION---------*/
+    /*---------------EVERYTHING-SECTION-----------------*/
+
     .sub-everything{
         display: flex;
         flex-direction: row;
