@@ -1751,4 +1751,8 @@ img.search{
     .desk-login p{
         margin-top: 1px;
     }
+    .footer-section{
+        justify-content: space-between;
+        width: 100%;
+    }
 }
