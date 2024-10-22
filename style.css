@@ -157,7 +157,7 @@ img.logo2{
      color: #636363;
 }
 
-.doorsearch{
+.door-search{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -233,7 +233,8 @@ img.search{
     padding: 20px;
     border-radius: 12px;
     border: 1px solid #fff;
-    background-color:#f7f7f7;  
+    background-color:#f7f7f7;
+    width: 100%;
    
 }
 .browse-content{
@@ -1064,6 +1065,7 @@ img.search{
         padding: 0px 12px;
         font-family: norms-bold;
         font-weight: 700;
+        margin-bottom: 1px;
     }
     .signin{
         background-color: #fff;
@@ -1079,9 +1081,10 @@ img.search{
         padding: 0px 12px;
         font-family: norms-bold;
         font-weight: 700;
+        margin-bottom: 1px;
     }
     .delivery {
-       padding: 8px 15px 8px 20px;
+       padding: 8px 16px 8px 20px;
         
     }
     .center-content h2{
@@ -1416,6 +1419,7 @@ img.search{
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-left: 1px;
       }
       .navbar{
         margin-top: 16px;
@@ -1429,6 +1433,9 @@ img.search{
         padding: 0px;
         flex-flow: wrap;
       }
+      .content{
+        margin-top: -7px;
+      }
 } 
 
 /*-------------------WIDTH-780PX--------------------*/
@@ -1437,9 +1444,7 @@ img.search{
         max-width: 750px;
         font-size: 40px;
     }
-    .delivery{
-        margin-top: 6px;
-    }
+    
     .center-content{
         margin-top: 10px;
     }
@@ -1486,14 +1491,15 @@ img.search{
     img.logo2{
         width: 155px;
         height: 78px;
+        margin-left: 7px;
     }
     .doorlogo{
         position: absolute;
-        top: -22px;
+        top: -23px;
         gap: 5px;
     }
     .center-content h2{
-        margin-top: 85px;
+        margin-top: 74px;
     }
     .center-content{
         margin-bottom: 30px;
@@ -1505,7 +1511,12 @@ img.search{
         width: 100%;
     }
     
-
+    .input h2{
+        margin-top: 1px;
+    }
+    .desk-login p{
+        margin-top: 1px;
+    }
   
     
   
@@ -1588,7 +1599,8 @@ img.search{
         align-items: center;
         background-color: #Eb1700;
         border-radius: 50%;
-        padding: 6px;
+        padding: 8px;
+       
     }
     .delivery{
         padding-right: 8px;
@@ -1656,5 +1668,35 @@ img.search{
     }
     .start-section{
         justify-content: center;
+    }
+    .socialmedia-section{
+        padding-top: 0px;
+    }
+    .top-cities-section{
+        display: flex;
+        flex-direction: column;
+        max-width: 1130px;
+        padding: 0px 150px;
+        justify-content: center;
+       
+    }
+    .cities-section{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .center-content h2{
+        margin-top: 84px;
+    }
+    .doorlogo{
+        top: -23px;
+    }
+    img.logo2{
+        margin-left: 7px;
+    }
+    .input h2{
+        padding-right: 143px;
+        margin-top: 1px;
+    }
+    .desk-login p{
+        margin-top: 1px;
     }
 }
