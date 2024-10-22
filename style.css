@@ -1674,6 +1674,7 @@ img.search{
         white-space: nowrap;
         justify-content: space-between;
         width: 100%;
+        gap: 128px;
         
     }
     .main-store{
